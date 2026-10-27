@@ -35,7 +35,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenCv, onOpenPublishGuide }) 
               className="hover:text-teal-300 transition-colors flex items-center gap-1"
             >
               <Share2 className="w-3.5 h-3.5" />
-              <span>Guide Lien Public</span>
+              <span>Lien Public</span>
             </button>
             <button
               onClick={onOpenCv}

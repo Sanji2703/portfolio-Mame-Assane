@@ -84,14 +84,23 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCv, onOpenPublishGuide }) => {
             <div className="mt-5 pt-4 border-t border-slate-800/80 flex flex-wrap items-center gap-3 text-xs text-slate-400">
               <div className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                <span>Portfolio en ligne avec lien public vérifié.</span>
+                <span>Lien public :</span>
+                <a
+                  href={PERSONAL_INFO.publicAppUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-teal-300 hover:text-teal-200 font-mono font-semibold underline underline-offset-4 decoration-teal-400/40"
+                >
+                  assaneportfolio.netlify.app
+                </a>
               </div>
               <button
                 onClick={onOpenPublishGuide}
-                className="inline-flex items-center gap-1 text-teal-300 hover:text-teal-200 font-medium underline underline-offset-4 decoration-teal-400/40"
+                className="inline-flex items-center gap-1 text-slate-400 hover:text-teal-300 transition-colors"
+                title="Partager le lien"
               >
-                <Share2 className="w-3.5 h-3.5" />
-                <span>Lien pour Connect Emploi & CV</span>
+                <Share2 className="w-3.5 h-3.5 text-teal-400" />
+                <span>Partager</span>
               </button>
             </div>
           </div>

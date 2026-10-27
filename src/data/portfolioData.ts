@@ -9,7 +9,7 @@ export const PERSONAL_INFO = {
   phone: '+221785265828',
   phoneDisplay: '+221 78 526 58 28',
   whatsappUrl: 'https://wa.me/221785265828',
-  publicAppUrl: 'https://ais-pre-sdqwpmywwwrstsrickmfqo-291713182706.europe-west2.run.app',
+  publicAppUrl: 'https://assaneportfolio.netlify.app',
   portraitImage: '/photo_mame_assane.jpeg',
   cvPdfUrl: '/cv_mame_assane_ndoye.pdf',
   analyticsImage: '/src/assets/images/project_data_analytics_1793071630117.jpg',

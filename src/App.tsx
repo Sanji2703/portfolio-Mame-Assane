@@ -30,13 +30,15 @@ export default function App() {
             </span>
           </div>
           <div className="flex items-center gap-3">
-            <button
-              onClick={() => setIsPublishGuideOpen(true)}
-              className="text-teal-300 hover:text-teal-200 underline font-medium flex items-center gap-1"
+            <a
+              href={PERSONAL_INFO.publicAppUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="text-teal-300 hover:text-teal-200 underline font-medium font-mono flex items-center gap-1"
             >
               <Share2 className="w-3 h-3" />
-              <span>Lien public pour Connect Emploi</span>
-            </button>
+              <span>assaneportfolio.netlify.app</span>
+            </a>
             <span className="text-slate-600 hidden sm:inline">|</span>
             <button
               onClick={() => setIsCvOpen(true)}

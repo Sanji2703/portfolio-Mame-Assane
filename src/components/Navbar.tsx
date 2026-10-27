@@ -55,7 +55,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCv, onOpenPublishGuide }) 
           <button
             onClick={onOpenPublishGuide}
             className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-teal-300 bg-teal-950/40 hover:bg-teal-900/50 border border-teal-500/30 rounded-lg transition-colors whitespace-nowrap"
-            title="Consulter le lien public accessible et les guides pour Connect Emploi"
+            title="Partager le lien public (assaneportfolio.netlify.app)"
           >
             <Share2 className="w-3.5 h-3.5 text-teal-400" />
             <span>Lien public</span>
